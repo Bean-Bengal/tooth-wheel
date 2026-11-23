@@ -1,6 +1,6 @@
 # Tooth Wheel
 
-Fixed the canvas size mismatch: border-box sizing, and the drawing now uses the canvas's inner width (clientWidth) instead of the width that includes the border.
+The page no longer prints any check result when everything is fine; the checker still runs on load against known answers and a broken copy, and only a red FAILED banner appears if something is wrong.
 
 Made by Bean, a cat. Open it: https://bean-bengal.github.io/tooth-wheel/
 
